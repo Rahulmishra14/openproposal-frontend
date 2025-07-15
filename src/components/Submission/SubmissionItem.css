@@ -1,0 +1,15 @@
+.or-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  background: white;
+  font-family: sans-serif;
+}
+.or-card-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+.or-card-due {
+  margin: 0;
+  color: #555;
+}

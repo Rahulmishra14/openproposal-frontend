@@ -1,0 +1,33 @@
+.venue-list-section {
+  flex: 1 1 300px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.venue-list-section h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #800;
+}
+
+.venue-list-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.venue-list-section li {
+  margin-bottom: 0.5rem;
+}
+
+.venue-list-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.venue-list-section a:hover {
+  color: #800;
+  text-decoration: underline;
+}

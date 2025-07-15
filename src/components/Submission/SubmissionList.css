@@ -1,0 +1,15 @@
+.or-submissions {
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.or-section-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+.or-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 1rem;
+}

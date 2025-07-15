@@ -1,0 +1,13 @@
+.main-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.venue-sections {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

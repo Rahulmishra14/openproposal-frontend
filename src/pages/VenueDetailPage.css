@@ -1,0 +1,45 @@
+.venue-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+.venue-detail a {
+  text-decoration: none;
+  color: #800;
+}
+
+.venue-detail h1 {
+  margin-top: 1rem;
+  color: #800;
+}
+
+.venue-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.venue-detail li {
+  margin-bottom: 0.5rem;
+}
+
+.tabs {
+  margin-top: 1rem;
+}
+
+.tabs button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #800;
+  background: #fff;
+  color: #800;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background: #800;
+  color: #fff;
+}

@@ -1,0 +1,81 @@
+.or-header {
+  background: #800;
+  padding: 0.5rem 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.or-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.or-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.or-nav {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.or-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.or-nav a:hover {
+  text-decoration: underline;
+}
+
+/* AUTH BUTTONS GROUP */
+.or-auth {
+  display: flex;
+  align-items: center;
+}
+
+.or-auth .or-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.or-auth .or-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* SIGNUP button is emphasized */
+.or-auth .or-signup {
+  background: white;
+  color: #800;
+  border-color: white;
+}
+
+.or-auth .or-signup:hover {
+  background: #f5f5f5;
+}
+
+/* PROFILE and LOGOUT buttons styling */
+.or-auth .or-profile,
+.or-auth .or-logout {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.or-auth .or-profile:hover,
+.or-auth .or-logout:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
